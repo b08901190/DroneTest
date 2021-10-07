@@ -13,7 +13,7 @@ def real_positions():
 def calculate_distance(target_position,real_position):
     distance = [target_position[0] - real_position[0],
                 target_position[1] - real_position[1],
-                target_position[2]- real_position[2]]
+                target_position[2] - real_position[2]]
     return distance
 
 while True :
